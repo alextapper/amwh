@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="SNAP participates in the art craw each month.">
+		<meta name="keywords" content="Nashville art crawl, wedgewood houston, first saturday art crawl, nashville arts, SNAP">
+
+		<title>SNAP — Arts &amp; Music at Wedgewood/Houston | Nashville, TN | Art Crawl</title>
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.prefixed.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+		<!-- favicons -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- Opens all links in a new window -->
+
+		<!-- Google Fonts -->
+
+		<!-- JQuery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>		
+
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50999315-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+	<body>
+		<!-- START HEADER SECTION -->
+		<header class="header-snap">
+
+			<div class="logo-background max-width-960 v-centered">
+				<!-- <img src="images/gallery-logo/snap.png" class="v-centered" alt="SNAP"> -->
+				<h1 class="v-centered">SNAP</h1>
+			</div>
+
+		</header>
+
+		<!-- about section -->
+		<div class="section-about">
+			<h1 class="h1-gallery">South Nashville Action People (SNAP)</h1>
+
+			<p class="body-artists">
+				<strong>Call:</strong> <a href="tel:+16156697627">615.669.7627</a></br>
+				<strong>Visit:</strong> <a href="https://goo.gl/maps/6nNWw">1224 Martin Street</a></br>
+				<strong>Website:</strong> <a href="http://www.wedgewoodhouston.com">http://wedgewoodhouston.com</a></p>
+
+
+			<div class="current-exhibit-wrapper">
+				<h2 class="body-current-exhibit">Current Exhibit:</h2>
+
+				<p class="body-artists">Art exhibit by Ruben Torres</p>
+				
+			</div>
+
+			<h2 class="body-current-exhibit">About the gallery:</h2>
+
+			<p class="body-copy light grey">The SNAP Gallery is based out of South Nashville Action People&rsquo;s (SNAP) community building on Martin and Humphreys. The building is renovated into a professional gallery for the art crawl once a month allowing artists from the Wedgewood-Houston neighborhood a chance to show their work in a professional capacity, free of charge and commission. SNAP is a community alliance based in Wedgewood-Houston that empowers residents, enhances quality of life and promotes the integrity of the neighborhood. We are excited to offer this space for our artists&rsquo; use and neighbors&rsquo; appreciation. For more information contact Adrianna Silver at <a href="mailto:snaptn@gmail.com">snaptn@gmail.com</a>.</p>
+
+			<div class="social-icons-gallery">
+				<a href=" https://www.facebook.com/southnashvilleactionpeople">
+					<img src="images/social/facebook.svg" id="facebook-gallery"></a>
+				<!-- <a href="http://instagram.com/infinitycat"> -->
+					<!-- <img src="images/social/insta.svg" id="insta-gallery"></a> -->
+				<!-- <a href="https://twitter.com/infinitycat"> -->
+					<!-- <img src="images/social/twitter.svg" id="twitter-gallery"></a> -->
+			</div>
+
+			<a href="/#map"><img src="images/back-to-map.png" class="back-to-map"></a>
+		</div>
+
+		
+		<!-- START FOOTER SECTION -->
+		<footer id="contact">
+			<p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;AMWH &nbsp; | &nbsp; Design by <a href="http://compound-creative.com">Compound</a></p>
+
+		</footer>
+
+		<!-- Retina.JS -->
+		<script type="text/javascript" src="/scripts/retina.js"></script>
+
+	</body>
+
+</html>

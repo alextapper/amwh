@@ -1,0 +1,1163 @@
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* URL: am-wh.com
+* author: alex tapper, compound creative, compcreative.co
+* date: september 2014
+*
+* The robbed that smiles has stolen something from the theif.
+* 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+
+
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						UNIVERSAL
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+
+@font-face {
+    font-family: "HNC-B";
+    src: url('../fonts/Helvetica-NeueCond-bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'HNC';
+    src: url('../fonts/Helvetica-NeueCond.ttf') format('truetype');
+}
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	     	  box-sizing: border-box;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Auxiliary classes */
+.max-width-960 {
+	max-width: 730px;
+	margin: 0 auto;
+}
+
+.v-centered {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	   	    transform: translateY(-50%);
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+	font-size: 62.5%;
+	text-rendering: optimizeLegibility;
+	font-family: 'HNC';
+
+	vertical-align: baseline;
+}
+
+body {
+	font-family: 'HNC';
+	word-wrap: break-word;
+}
+
+
+h1 {
+	font-family: 'HNC-B';
+	font-size: 4em;
+	color: #333333;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+/* h2 used in header slider photos */
+h2 {
+	font-family: 'HNC-B';
+	font-size: 2.8em;
+	color: #12a099;
+	color: dimgrey;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+/*  for the section headings */
+span.h1-background {
+	position: relative;
+	top: -20px;
+
+	padding: 0 20px;
+	background-color: white;
+}
+
+
+a {
+	color: #12a099;
+}
+
+.button {
+	clear: both;
+	cursor: pointer;
+	display: block;
+
+	height: 50px;
+	width: 200px;
+	border: 3px green solid;
+	padding-top: 10px;
+
+	font-size: 2.2em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button:hover {
+	background-color: green;
+	color: white;
+	transition: .1s ease-in-out;
+}
+
+a {
+	text-decoration: none;
+}
+
+strong {
+	font-family: "HNC-B";
+}
+
+.section-wrapper {
+	border-top: 5px solid #12A099;
+	padding: 0;
+}
+
+ul.body-artists {
+	padding-left: 20px;
+}
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						HEADER
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+header {
+	height: 600px;
+	position: relative;
+
+}
+
+.header-index {
+	background-image: url('../images/header-background.jpg');
+	background-size: cover;
+	background-position: center bottom;
+}
+
+/* gallery background photos in the header for Zeitgeist */
+.header-zeitgeist {
+	background-image: url('../images/header/zeitgeist.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+
+/* gallery background photos in the header for david lusk */
+.header-david-lusk {
+	background-image: url('../images/header/dlg.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Hunter Gatherer */
+.header-hunter-gatherer {
+	background-image: url('../images/header/hunter-gatherer.png');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for The Packing Plant */
+.header-packing-plant {
+	background-image: url('../images/header/packing-plant.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Infinity Cat */
+.header-infinity-cat {
+	background-image: url('../images/header/infinity-cat.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for SNAP */
+.header-snap {
+	background-image: url('../images/header/snap.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Julia Martin */
+.header-julia-martin {
+	background-image: url('../images/header/julia-martin.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+
+/* gallery background photos in the header for 444 pop up */
+.header-444 {
+	background-image: url('../images/header/444.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for abrasive media */
+.header-abrasive-media {
+	background-image: url('../images/header/abrasive-media.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Refinery Nashville */
+.header-refinery {
+	background-image: url('../images/header/refinery.jpg');
+	background-size: cover;
+	background-position: middle center;
+}
+
+/* gallery background photos in the header for Fort Houston */
+.header-fort-houston {
+	background-image: url('../images/header/fort-houston.jpg');
+	background-size: cover;
+	background-position: middle center;
+}
+
+/* gallery background photos in the header for Threesquared */
+.header-threesquared {
+	background-image: url('../images/header/threesquared.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Ovvio Arte */
+.header-ovvio-arte {
+	background-image: url('../images/header/ovvio-arte.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for track one */
+.header-track-one {
+	background-image: url('../images/header/track-one.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Seedspace */
+.header-seedspace {
+	background-image: url('../images/header/seedspace.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+
+/* gallery background photos in the header for Fabric Studio */
+.header-fabric-studio {
+	background-image: url('../images/header/fabric-studio.jpg');
+	background-size: cover;
+	background-position: middle center;
+}
+
+/* gallery background photos in the header for ground floor gallery */
+.header-ground-floor {
+	background-image: url('../images/header/ground-floor.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Sherrick & Paul */
+.header-sherrick-paul {
+	background-image: url('../images/header/sherrick-paul.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Modern Iron Concepts */
+.header-modern-iron-concepts {
+	background-image: url('../images/header/modern-iron-concepts.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Channel to Channel */
+.header-channel-to-channel {
+	background-image: url('../images/header/channel-to-channel.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Cumberland Gallery (CG2) */
+.header-cg2 {
+	background-image: url('../images/header/cg2.jpg');
+	background-size: cover;
+	background-position: middle;
+}
+
+/* gallery background photos in the header for Atelier Upton */
+.header-atelier-upton {
+	background-image: url('../images/header/atelier-upton.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+
+/* gallery background photos in the header for Poverty & the Arts */
+.header-pata {
+	background-image: url('../images/header/pata.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+
+/* gallery background photos in the header for Valentine Valentine */
+.header-valentine {
+	background-image: url('../images/header/valentine-valentine.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+
+.header-valentine img {
+	padding: 40px;
+}
+
+
+
+.logo-background {
+	height: 300px;
+	/*width: 730px;*/
+	position: relative;
+	background-color: rgba(255,255,255,0.85);
+	border: 5px solid #12a099;
+	text-align: center;
+}
+
+.white {
+	background-color: rgba(255,255,255,1);
+}
+
+.logo-background img {
+	/*width: 100%;*/
+	max-width: 320px;
+	max-height: 100%;
+	margin: 0 auto;
+
+}
+
+.logo-padding {
+	padding: 50px 0;
+}
+
+.logo-padding-half {
+	padding: 25px 0;
+}
+
+
+
+/* * * * * * * * * * * * * * * *
+
+
+for the slider 
+
+
+* * * * * * * * * * * * * * * * */
+
+
+.dark {
+	font-size: 2.6em;
+	text-align: center;
+	color: white;
+	max-width: 80%;
+	margin: 20px auto 0 auto;
+}
+
+h2.dark, p.dark {
+	color: white;
+}
+
+h2.dark {
+	border-bottom: 2px solid white;
+}
+
+.slider-title-box {
+	/*vertical centering*/
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	   	    transform: translateY(-50%);
+	
+	width: 75%;
+	max-width: 920px;
+	height: 30%;
+
+	margin: 0 auto;
+	padding: 10px 20px;
+	
+	text-align: center;
+	text-shadow: 0 0 5px rgba(0,0,0,.2), 0 1px 2px rgba(0,0,0,.3);
+}
+
+
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						ABOUT
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+.section-about {
+	width: 730px;
+	margin: 0 auto;
+	/*height: 580px;*/
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+
+.section-about-gallery {
+	width: 730px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+
+.body-copy {
+	font-family: 'HNC';
+	font-size: 2em;
+	line-height: 1.3em;
+	max-width: 960px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+.light {
+	font-family: "HNC";
+}
+
+.heavy {
+	font-family: "HNC-B";
+}
+
+.about-grid-wrapper {
+	display: block;
+	margin-top: 15px;
+	position: relative;
+}
+
+.social-icons {
+	float: left;
+	text-align: left;
+	width: 130px;
+	display: inline-block;
+	/*border-right: 5px solid #12A099;*/
+}
+
+.black-fill {
+	fill: #000000;
+}
+
+.social-icons-gallery {
+	text-align: center;
+	/*width: 500px;*/
+	display: block;
+	/*border-right: 5px solid #12A099;*/
+	padding-top: 15px;
+}
+
+.back-to-map {
+	font-family: 'HNC-B';
+	/*border: 4px solid #12A099;*/
+	border: 4px solid #333333;
+	/*padding: 15px;*/
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+.social-icons-gallery img {
+	/*margin: 0 30px;*/
+	vertical-align: top;
+}
+
+.social-icons img {
+	width: 100px;
+}
+
+#facebook-gallery {float: left;}
+#twitter-gallery {float: right;}
+
+
+
+#insta {
+	margin: 30px 0;
+}
+
+#twitter {
+/*	position: relative;
+	bottom: -3px;*/
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*				CHOOSE YOUR ADVENTURE
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+
+.section-adventure {
+	text-align: center;
+
+	height: auto;
+	width: 600px;
+
+	display: inline-block;
+	float: left;
+}
+
+.section-adventure ul {
+	margin: 0 auto;
+	width: 100%;
+	height: 99px;
+	margin-top: 33px;
+}
+
+.section-adventure li {
+	padding: 33px 20px;
+	/*padding-top: 21px;*/
+	border: 5px solid #12A099;
+	display: inline-block;
+	font-size: 2em;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "HNC-B"
+}
+
+#artists {
+	margin: 0 5%;
+}
+
+#sponsors, #crawlers {
+}
+
+.section-adventure li:hover, .section-adventure li:active {
+	background-color: #12A099;
+	color: white;
+	cursor: pointer;
+}
+
+.adventure-content {
+	border: 5px solid #12A099;
+	height: 230px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: "HNC-B";
+	font-size: 2em;
+	text-align: left;
+}
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						MAP
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+.rotate {
+	color: red;
+	display: none;
+}
+
+.section-map {
+	text-align: center;
+
+}
+
+.walking-map {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	/*border: 5px solid #12A099;*/
+}
+
+
+
+
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						GALLERY
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+.section-gallery-list {
+	/*max-width: 1440px;*/
+}
+
+.gallery-list-item {
+	width: 25%;
+	display: inline-block;
+	clear:both;
+	vertical-align: text-top;
+}
+
+.gallery-list-body {
+	font-family: 'HNC';
+	background-color: lightgrey;
+	height: 300px;
+	text-align: left;
+	color: black;
+	font-size: 16px;
+	line-height: 1.1em;
+}
+
+.gallery-list-body-click {
+	font-family: 'HNC';
+	background-color: #333333;
+	height: 300px;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+	line-height: 1.1em;
+}
+
+/*.gallery-list-body:hover {
+	background-color: #333333;
+	color: white;
+}*/
+
+/*.gallery-list-body:hover .gallery-letter {
+	background-color: black;
+	color: #12A099;
+}*/
+
+
+.gallery-letter {
+	text-align: center;
+	color: white;
+	background-color: #12A099;
+	line-height: 40px;
+	font-size: 32px;
+	font-family: 'HNC-B'
+}
+
+/* new copy from the above */
+.gallery-letter-click {
+	background-color: black;
+	color: #12A099;
+	text-align: center;
+	line-height: 40px;
+	font-size: 32px;
+	font-family: 'HNC-B'
+}
+
+.gallery-info {
+	padding: 20px 10px 0 20px;
+	min-height: 200px;
+	position: relative;
+}
+
+.gallery-name {
+	font-family: 'HNC-B';
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+.gallery-name a:hover {
+	color: white;
+}
+
+.gallery-address {
+
+}
+
+.gallery-phone {
+	padding-bottom: 5px;
+}
+
+.gallery-hours {
+	padding-bottom: 5px;
+
+}
+
+.gallery-current-show {
+
+}
+
+.gallery-more {
+	text-align: left;
+	margin: 15px auto 0 auto;
+	font-style: italic;
+}
+
+.gallery-more a {
+	color: white;
+	background-color: #12A099;
+	padding: 5px 10px;
+	font-family: 'HNC-B';
+}
+
+.gallery-more a:hover {
+	color: #12A099;
+	background-color: white;
+	padding: 5px 10px;
+}
+
+
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						FOOTER
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+footer {
+	width: 100%;
+	display: block;
+	clear: both;
+	background-color: #12A099;
+	font-family: "HNC-B";
+	color: #333333;
+	font-size: 2em;
+	text-align: center;
+	padding: 30px;
+}
+
+footer a {
+	color: white;
+	border-bottom: 2px solid white;
+	padding-bottom: 3px;
+}
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+		
+			GALLERY PAGES
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+.h1-gallery {
+
+}
+
+.current-exhibit-wrapper {
+	border-left: 5px solid #12A099;
+	clear: both;
+	padding: 0 20px;
+}
+
+
+.body-current-exhibit {
+	font-family: 'HNC-B';
+	font-size: 2em;
+	max-width: 960px;
+	/*padding: 5px 20px;*/
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+.body-artists {
+	font-family: 'HNC';
+	font-size: 2em;
+	max-width: 960px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+.grey {
+	color: dimgrey;
+	/*font-size: 1.8em;*/
+}
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+		
+			Utility classes
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+.u-center-align {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.u-left-align {
+	text-align: left;
+	max-width: 100%;
+}
+
+
+
+
+/*
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *					
+
+
+
+
+
+					media queries
+
+
+
+
+
+
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ */
+
+
+ /*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						less than 1024
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+@media screen and (max-width: 1024px) {
+
+	.max-width-960 {
+		max-width: 710px;
+		margin: 0 auto;
+	}
+
+	header {
+		height: 600px;
+	}
+
+	.logo-background {
+		height: 300px;
+	}
+
+	.header-index {
+		/*padding: 5%;*/
+	}
+
+	.section-about {
+		width: 710px;
+		/*height: 650px;*/
+	}
+
+	/* div that contains the social icons -- makes it horizontal */
+	.social-icons, .social-icons-gallery {
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		/*border-right: 5px solid #12A099;*/
+		margin-bottom: 30px;
+	}
+
+	.social-icons img, .social-icons-gallery img {
+		display: inline-block;
+		width: 100px;
+		vertical-align: middle;
+	}
+
+	/* controls the spacing between the icons from the middle */
+	
+	#facebook {
+		float: left;
+	}
+
+	#insta {
+		margin: 0;
+	}
+
+	#twitter {
+		float: right;
+	}
+
+	.gallery-list-item {
+		width: 33.333%;
+
+	}
+
+	.section-adventure li {
+		padding: 20px 0 0 0;
+		height: 72px;
+
+	}
+
+	.section-adventure {
+		height: auto;
+		width: 100%;
+	}
+
+	.adventure-content {
+		height: 130px;
+		min-height: 100px;
+		width: 100%;
+	}
+
+}
+
+
+
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						ipad
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+@media screen and (max-width: 768px) {
+
+	header {
+		height: 640px;
+	}
+
+	.logo-background {
+		border: 0;
+		border-top: 5px solid #12A099;
+		border-bottom: 5px solid #12A099;
+		width: 100%;
+		height: 200px;
+	}
+
+	.logo-background img {
+
+	}
+
+	.max-width-960 {
+		max-width: 100%;
+	}
+
+	.section-about {
+		width: 80%;
+		/*height: 600px;*/
+	}
+
+	.social-icons img, .social-icons-gallery img {
+		width: 75px;
+	}
+
+	.adventure-content, .section-adventure li {
+		font-size: 1.6em;
+	}
+
+	.section-adventure {
+		/*width: 90%;*/
+		/*height: 130px;*/
+	}
+
+	.section-adventure ul {
+		height: 60px;
+	}
+
+	.section-adventure li {
+		padding-top: 20px;
+		height: 65px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 620px) {
+	.section-about {
+		/*height: 650px;*/
+	}
+
+
+}
+
+
+@media screen and (max-width: 530px) {
+	.section-about {
+		/*height: 680px;*/
+	}
+}
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*						iphone
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
+
+/* show the map message in portrait - iphone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) { 
+	.rotate {
+		display: inline;
+		position: relative;
+		top: 50px;
+		color: #333333;
+		background-color: #FD1C22;
+		padding: 10px;
+		border: 3px solid #333333;
+		font-family: "HNC-B";
+	}
+}
+
+/* show the map message in portrait - iphone 6 plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) { 
+	.rotate {
+		display: inline;
+		position: relative;
+		top: 50px;
+		color: #333333;
+		background-color: #FD1C22;
+		padding: 10px;
+		border: 3px solid #333333;
+		font-family: "HNC-B";
+	}
+}
+
+/* show the map message in portrait - iphone 5/5s */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+	.rotate {
+		display: inline;
+		position: relative;
+		top: 50px;
+		color: #333333;
+		background-color: #FD1C22;
+		padding: 10px;
+		border: 3px solid #333333;
+		font-family: "HNC-B";
+	}
+}
+
+/* show the map message in portrait - iphone original thru 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) { 
+	.rotate {
+		display: inline;
+		position: relative;
+		top: 50px;
+		color: #333333;
+		background-color: #FD1C22;
+		padding: 10px;
+		border: 3px solid #333333;
+		font-family: "HNC-B";
+	}
+}
+
+
+
+/* mobile styles */
+@media screen and (max-width: 450px) {
+
+	header {
+		height: 380px;
+	}
+
+	.logo-background {
+		border-top: 5px solid #12A099;
+		border-bottom: 5px solid #12A099;
+		width: 100%;
+		height: 200px;
+	}
+
+	.logo-background img {
+		max-width: 95%;
+	}
+
+	.body-copy {
+		font-size: 1.6em;
+	}
+
+	.logo-background {
+		width: 100%;
+	}
+
+	.section-about {
+		width: 95%;
+		/*height: 530px;*/
+	}
+
+	.gallery-list-item {
+		width: 50%;
+	}
+
+	.adventure-content, .section-adventure li {
+		font-size: 1.2em;
+	}
+
+	.section-adventure ul {
+		height: 50px;
+		margin-top: 20px;
+	}
+
+	.adventure-content {
+		padding: 15px;
+		height: 100px;
+	}
+
+	.section-adventure li {
+		padding: 14px 10px 10px 10px;
+	}
+
+	.social-icons {
+		/*width: 100%;*/
+		/*margin: 10px 0 0 0;*/
+	}
+
+	.social-icons-gallery  {
+		/*margin-top: 10px;*/
+	}
+
+	.social-icons img {
+		/*width: 30%;*/
+		margin: 0;
+	}
+
+	#insta {
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+
+	.back-to-map {
+		margin-top: 0px;
+	}
+
+	footer {
+		font-size: 1.2em;
+		padding: 20px;
+	}
+
+	footer a {
+		color: white;
+		border-bottom: 2px solid white;
+		padding-bottom: 1px;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Channel to Channel participates in the art craw each month.">
+		<meta name="keywords" content="Nashville art crawl, wedgewood houston, first saturday art crawl, nashville arts, Channel to Channel">
+
+		<title>Channel to Channel — Arts &amp; Music at Wedgewood/Houston | Nashville, TN | Art Crawl</title>
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.prefixed.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+		<!-- favicons -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- Opens all links in a new window -->
+
+		<!-- Google Fonts -->
+
+		<!-- JQuery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>		
+
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50999315-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+	<body>
+		<!-- START HEADER SECTION -->
+		<header class="header-channel-to-channel">
+
+			<div class="logo-background max-width-960 v-centered">
+				<img src="images/gallery-logo/channel-to-channel.png" class="v-centered" alt="Channel to Channel">
+			</div>
+
+		</header>
+
+		<!-- about section -->
+		<div class="section-about">
+			<h1 class="h1-gallery">Channel to Channel</h1>
+
+			<p class="body-artists">
+				<strong>Call:</strong> <a href="tel:+16625749433">662.574.9433</a></br>
+				<strong>Visit:</strong> 427 Chestnut St. Suite 302 B</br>
+				<strong>Website:</strong> <a href="http://www.channeltochannel.com/">channeltochannel.com/</a></p>
+
+
+			<div class="current-exhibit-wrapper">
+				<h2 class="body-current-exhibit">Current Exhibit:</h2>
+
+				
+				<p class="body-artists">Channel To Channel is pleased to present "Lady-Like", a selection of sexy, fashionable paintings, illustrations, and found objects turned macabre and dystopic by Frances Berry. </p>
+
+				
+				<p class="body-artists">Her Memphis studio will be transferred to the gallery for the month of October. The gallery walls will be covered with gestured mixed media drawings of jumbled figures, crude, humorous, and haunting. There will be a trampoline, balloons, party favors, and art you can walk away with.</p>
+
+				
+				<p class="body-artists"><a href="http://www.whereisfrances.com">http://www.whereisfrances.com</a>.</p>
+
+			</div>
+
+			<h2 class="body-current-exhibit">About the gallery:</h2>
+
+			<p class="body-copy light grey">Channel To Channel is a contemporary art gallery located in Nashville, TN. It is dedicated to providing the growing Nashville Visual Arts culture with experimental, challenging, and bold two-dimensional, one of a kind works of art from artists around the region. Dubbing as a studio as well, it is meant to be a place of casual and comfortable experimentation. There is also usually a mini fridge full of beer in the corner.</p>
+
+			<div class="social-icons-gallery">
+				<a href=" https://www.facebook.com/ChannelToChannel">
+					<img src="images/social/facebook.svg" id="facebook-gallery"></a>
+				<a href="http://instagram.com/ChannelToChannel">
+					<img src="images/social/insta.svg" id="insta-gallery"></a>
+				<!-- <a href="https://twitter.com/GroundFloorNash"> -->
+					<!-- <img src="images/social/twitter.svg" id="twitter-gallery"></a> -->
+			</div>
+
+			<a href="/#map"><img src="images/back-to-map.png" class="back-to-map"></a>
+		</div>
+
+		
+		<!-- START FOOTER SECTION -->
+		<footer id="contact">
+			<p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;AMWH &nbsp; | &nbsp; Design by <a href="http://compound-creative.com">Compound</a></p>
+
+		</footer>
+
+		<!-- Retina.JS -->
+		<script type="text/javascript" src="/scripts/retina.js"></script>
+
+	</body>
+
+</html>

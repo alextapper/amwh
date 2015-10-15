@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Sherrick &amp; Paul participates in the art craw each month.">
+		<meta name="keywords" content="Nashville art crawl, wedgewood houston, first saturday art crawl, nashville arts, Sherrick &amp; Paul">
+
+		<title>Sherrick &amp; Paul — Arts &amp; Music at Wedgewood/Houston | Nashville, TN | Art Crawl</title>
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.prefixed.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+		<!-- favicons -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- Opens all links in a new window -->
+
+		<!-- Google Fonts -->
+
+		<!-- JQuery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>		
+
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50999315-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+	<body>
+		<!-- START HEADER SECTION -->
+		<header class="header-sherrick-paul">
+
+			<div class="logo-background max-width-960 v-centered">
+				<img src="images/gallery-logo/sherrick-paul.png" class="v-centered" alt="Sherrick &amp; Paul">
+			</div>
+
+		</header>
+
+		<!-- about section -->
+		<div class="section-about">
+			<h1 class="h1-gallery">Sherrick &amp; Paul</h1>
+
+			<p class="body-artists">
+				<strong>Call:</strong> <a href="tel:+16158647623">615.864.7623</a></br>
+				<strong>Visit:</strong> 438 Houston St</br>
+				<strong>Website:</strong> <a href="http://sherrickandpaul.com">http://sherrickandpaul.com</a></p>
+
+
+			<div class="current-exhibit-wrapper">
+				<h2 class="body-current-exhibit">Current Exhibit:</h2>
+
+				<p class="body-artists">BRYAN SCHUTMAAT photography open 6-9 on October 3. On view through Oct 31.</p>
+
+			</div>
+
+			<h2 class="body-current-exhibit">About the gallery:</h2>
+
+			<p class="body-copy light grey">Sherrick &amp; Paul Gallery, founded by art dealer and curator Susan Sherrick and private collector Paul Gilbert, opened its doors in Nashville in 2014 with the intention of bringing the work of nationally and internationally exhibited contemporary artists to the city. Focusing primarily on photography and painting, the gallery’s inaugural exhibition featured works by artists including William Eggleston, Vivian Maier, Marcel Dzama, and Hiroshi Sugimoto. Sherrick &amp; Paul, located in Houston Station, is open to the public Thursday through Saturday 11am to 5pm, and by appointment.</p>
+
+			<div class="social-icons-gallery">
+				<!-- <a href=" https://www.facebook.com/GroundFloorGalleryandStudios"> -->
+					<!-- <img src="images/social/facebook.svg" id="facebook-gallery"></a> -->
+				<a href="http://instagram.com/sherrickpaul">
+					<img src="images/social/insta.svg" id="insta-gallery"></a>
+				<!-- <a href="https://twitter.com/GroundFloorNash"> -->
+					<!-- <img src="images/social/twitter.svg" id="twitter-gallery"></a> -->
+			</div>
+
+			<a href="/#map"><img src="images/back-to-map.png" class="back-to-map"></a>
+		</div>
+
+		
+		<!-- START FOOTER SECTION -->
+		<footer id="contact">
+			<p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;AMWH &nbsp; | &nbsp; Design by <a href="http://compound-creative.com">Compound</a></p>
+
+		</footer>
+
+		<!-- Retina.JS -->
+		<script type="text/javascript" src="/scripts/retina.js"></script>
+
+	</body>
+
+</html>

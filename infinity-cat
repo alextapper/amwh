@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Infinity Cat Records participates in the art craw each month.">
+		<meta name="keywords" content="Nashville art crawl, wedgewood houston, first saturday art crawl, nashville arts, Infinity Cat Records">
+
+		<title>Infinity Cat Records — Arts &amp; Music at Wedgewood/Houston | Nashville, TN | Art Crawl</title>
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.prefixed.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+		<!-- favicons -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- Opens all links in a new window -->
+
+		<!-- Google Fonts -->
+
+		<!-- JQuery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>		
+
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50999315-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+	<body>
+		<!-- START HEADER SECTION -->
+		<header class="header-infinity-cat">
+
+			<div class="logo-background max-width-960 v-centered">
+				<img src="images/gallery-logo/infinity-cat.png" class="v-centered" alt="Infinity Cat Records">
+			</div>
+
+		</header>
+
+		<!-- about section -->
+		<div class="section-about">
+			<h1 class="h1-gallery">Infinity Cat Records</h1>
+
+			<p class="body-artists">
+				<strong>Call:</strong> <a href="tel:+16157308417">615.730.8417</a></br>
+				<strong>Visit:</strong> 467 Humphreys St.</br>
+				<strong>Website:</strong> <a href="http://infinitycat.com">http://infinitycat.com</a></p>
+
+
+			<div class="current-exhibit-wrapper">
+				<h2 class="body-current-exhibit">Current Exhibit:</h2>
+
+				<p class="body-artists">Infinity Cat presents "Candy Corn". 6-9 pm at 467 Humphreys St.
+				We're getting a jump on our favorite holiday with this Halloween themed Art Party.
+				Bring a carved pumpkin for our 3 judges and win 5 tickets to the JEFF The Brotherhood / Diarrhea Planet Halloween Show at War Memorial Auditorium!
+				Wear a costume if you want- you may win tickets too!
+				Specialty Cocktail, Beer and Wine. And candy, of course.</p>
+				
+
+
+				<p class="body-artists"></p>
+				
+				
+			</div>
+
+			<!-- <h2 class="body-current-exhibit">About the gallery:</h2> -->
+
+			<!-- <p class="body-copy light grey">Infinity Cat records description</p> -->
+
+			<div class="social-icons-gallery">
+				<a href=" https://www.facebook.com/infinitycat">
+					<img src="images/social/facebook.svg" id="facebook-gallery"></a>
+				<a href="http://instagram.com/infinitycat">
+					<img src="images/social/insta.svg" id="insta-gallery"></a>
+				<a href="https://twitter.com/infinitycat">
+					<img src="images/social/twitter.svg" id="twitter-gallery"></a>
+			</div>
+
+			<a href="/#map"><img src="images/back-to-map.png" class="back-to-map"></a>
+		</div>
+
+		
+		<!-- START FOOTER SECTION -->
+		<footer id="contact">
+			<p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;AMWH &nbsp; | &nbsp; Design by <a href="http://compound-creative.com">Compound</a></p>
+
+		</footer>
+
+		<!-- Retina.JS -->
+		<script type="text/javascript" src="/scripts/retina.js"></script>
+
+	</body>
+
+</html>
