@@ -52,13 +52,13 @@
 			<p class="body-artists">
 			<?php if( get_field('phone_number') ): ?>
 				<strong>Call:</strong> <?php the_field( 'phone_number' ); ?><br>
-			<?php ?>
+			<?php endif; ?>
 			<?php if( get_field('address') ): ?>
 				<strong>Visit:</strong> <?php the_field( 'address' ); ?><br>
-			<?php ?>
+			<?php endif; ?>
 			<?php if( get_field('website') ): ?>
 				<strong>Website:</strong> <a href="<?php the_field( 'website' ); ?>"><?php the_field( 'website' ); ?></a></p>
-			<?php ?>
+			<?php endif; ?>
 
 			<!-- inset section -->
 			<div class="current-exhibit-wrapper">
