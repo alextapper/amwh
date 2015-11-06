@@ -37,7 +37,7 @@
 
 	<body>
 		<!-- START HEADER SECTION -->
-		<header class="header-single" style="background-image: url('<?php the_field( 'background_image' ); ?>')">
+		<header class="header-single" style="background-image: url('<?php the_field( 'background_image' ); ?>'); background-position: <?php the_field( 'background_position' ); ?>;">
 
 			<div class="logo-background max-width-960 v-centered">
 				<img src="<?php the_field( 'gallery_logo' ); ?>" class="v-centered">
@@ -54,7 +54,7 @@
 				<strong>Call:</strong> <?php the_field( 'phone_number' ); ?><br>
 			<?php endif; ?>
 			<?php if( get_field('address') ): ?>
-				<strong>Visit:</strong> <?php the_field( 'address' ); ?><br>
+				<strong>Visit:</strong> <a href="<?php the_field( 'google_maps_link' ); ?>"><?php the_field( 'address' ); ?></a><br>
 			<?php endif; ?>
 			<?php if( get_field('website') ): ?>
 				<strong>Website:</strong> <a href="<?php the_field( 'website' ); ?>"><?php the_field( 'website' ); ?></a></p>
