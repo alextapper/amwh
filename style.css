@@ -273,10 +273,14 @@ h2.dark {
 .body-copy {
 	font-family: 'HNC';
 	font-size: 2em;
-	line-height: 1.3em;
+	line-height: 1.4;
 	max-width: 960px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	margin: 0 auto;
+}
+
+.body-copy p {
+	padding-bottom:10px;
 }
 
 .light {
@@ -621,15 +625,19 @@ footer a {
 	font-family: 'HNC';
 	font-size: 2em;
 	max-width: 960px;
-	padding-bottom: 15px;
+	line-height: 1.4;
+	padding-bottom: 5px;
 	margin: 0 auto;
+}
+
+.body-artists p {
+	padding-bottom: 10px;
 }
 
 .grey {
 	color: dimgrey;
 	/*font-size: 1.8em;*/
 }
-
 
 /*
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
