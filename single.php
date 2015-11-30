@@ -47,7 +47,7 @@
 
 		<!-- about section -->
 		<div class="section-about">
-			<h1 class="h1-gallery">Zeitgeist Gallery</h1>
+			<h1 class="h1-gallery"><?php the_field( 'gallery_name' ); ?></h1>
 
 			<p class="body-artists">
 			<?php if( get_field('phone_number') ): ?>
@@ -63,11 +63,11 @@
 			<!-- inset section -->
 			<div class="current-exhibit-wrapper">
 				<h2 class="body-current-exhibit">Current Exhibit:</h2>
-				<p class="body-artists"><?php the_field( 'current_exhibit_copy' ); ?></p>	
+				<div class="body-artists"><?php the_field( 'current_exhibit_copy' ); ?></div>	
 			</div>
 
 			<h2 class="body-current-exhibit">About the gallery:</h2>
-			<p class="body-copy light grey"><?php the_field( 'about_the_gallery' ); ?></p>
+			<div class="body-copy light grey"><?php the_field( 'about_the_gallery' ); ?></div>
 
 			<div class="social-icons-gallery">
 				<?php if( get_field('facebook_link') ): ?>
