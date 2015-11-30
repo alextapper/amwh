@@ -1,17 +1,16 @@
 /*
-* * * * * * * * * * * * * * * * * * * * * * * * * * * *
-* URL: am-wh.com
-* author: alex tapper, compound creative, compcreative.co
-* date: september 2014
-*
-* The robbed that smiles has stolen something from the theif.
-* 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Theme Name: AMWH
+Theme URI: http://am-wh.com/
+Author: Compound Creative
+Author URI: http://compound-creative.com/
+Description:
+Version: 1.0.0
+Text Domain: amwh
+Tags:
+
+The robbed that smiles has stolen something from the thief.
+
 */
-
-
-
-
 
 /*
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
@@ -22,13 +21,13 @@
 
 @font-face {
     font-family: "HNC-B";
-    src: url('../fonts/Helvetica-NeueCond-bold.ttf') format('truetype');
+    src: url('fonts/Helvetica-NeueCond-bold.ttf') format('truetype');
 }
 
 
 @font-face {
     font-family: 'HNC';
-    src: url('../fonts/Helvetica-NeueCond.ttf') format('truetype');
+    src: url('fonts/Helvetica-NeueCond.ttf') format('truetype');
 }
 
 
@@ -161,184 +160,14 @@ header {
 }
 
 .header-index {
-	background-image: url('../images/header-background.jpg');
+	background-image: url('images/header-background.jpg');
 	background-size: cover;
 	background-position: center bottom;
 }
 
-/* gallery background photos in the header for Zeitgeist */
-.header-zeitgeist {
-	background-image: url('../images/header/zeitgeist.jpg');
+.header-single {
 	background-size: cover;
-	background-position: bottom;
 }
-
-/* gallery background photos in the header for david lusk */
-.header-david-lusk {
-	background-image: url('../images/header/dlg.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Hunter Gatherer */
-.header-hunter-gatherer {
-	background-image: url('../images/header/hunter-gatherer.png');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for The Packing Plant */
-.header-packing-plant {
-	background-image: url('../images/header/packing-plant.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Infinity Cat */
-.header-infinity-cat {
-	background-image: url('../images/header/infinity-cat.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for SNAP */
-.header-snap {
-	background-image: url('../images/header/snap.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Julia Martin */
-.header-julia-martin {
-	background-image: url('../images/header/julia-martin.jpg');
-	background-size: cover;
-	background-position: bottom;
-}
-
-/* gallery background photos in the header for 444 pop up */
-.header-444 {
-	background-image: url('../images/header/444.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for abrasive media */
-.header-abrasive-media {
-	background-image: url('../images/header/abrasive-media.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Refinery Nashville */
-.header-refinery {
-	background-image: url('../images/header/refinery.jpg');
-	background-size: cover;
-	background-position: middle center;
-}
-
-/* gallery background photos in the header for Fort Houston */
-.header-fort-houston {
-	background-image: url('../images/header/fort-houston.jpg');
-	background-size: cover;
-	background-position: middle center;
-}
-
-/* gallery background photos in the header for Threesquared */
-.header-threesquared {
-	background-image: url('../images/header/threesquared.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Ovvio Arte */
-.header-ovvio-arte {
-	background-image: url('../images/header/ovvio-arte.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for track one */
-.header-track-one {
-	background-image: url('../images/header/track-one.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Seedspace */
-.header-seedspace {
-	background-image: url('../images/header/seedspace.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-
-/* gallery background photos in the header for Fabric Studio */
-.header-fabric-studio {
-	background-image: url('../images/header/fabric-studio.jpg');
-	background-size: cover;
-	background-position: middle center;
-}
-
-/* gallery background photos in the header for ground floor gallery */
-.header-ground-floor {
-	background-image: url('../images/header/ground-floor.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Sherrick & Paul */
-.header-sherrick-paul {
-	background-image: url('../images/header/sherrick-paul.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Modern Iron Concepts */
-.header-modern-iron-concepts {
-	background-image: url('../images/header/modern-iron-concepts.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Channel to Channel */
-.header-channel-to-channel {
-	background-image: url('../images/header/channel-to-channel.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Cumberland Gallery (CG2) */
-.header-cg2 {
-	background-image: url('../images/header/cg2.jpg');
-	background-size: cover;
-	background-position: middle;
-}
-
-/* gallery background photos in the header for Atelier Upton */
-.header-atelier-upton {
-	background-image: url('../images/header/atelier-upton.jpg');
-	background-size: cover;
-	background-position: top center;
-}
-
-/* gallery background photos in the header for Poverty & the Arts */
-.header-pata {
-	background-image: url('../images/header/pata.jpg');
-	background-size: cover;
-	background-position: top center;
-}
-
-/* gallery background photos in the header for Valentine Valentine */
-.header-valentine {
-	background-image: url('../images/header/valentine-valentine.jpg');
-	background-size: cover;
-	background-position: top center;
-}
-
-.header-valentine img {
-	padding: 40px;
-}
-
 
 
 .logo-background {
@@ -444,10 +273,14 @@ h2.dark {
 .body-copy {
 	font-family: 'HNC';
 	font-size: 2em;
-	line-height: 1.3em;
+	line-height: 1.4;
 	max-width: 960px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	margin: 0 auto;
+}
+
+.body-copy p {
+	padding-bottom:10px;
 }
 
 .light {
@@ -792,15 +625,19 @@ footer a {
 	font-family: 'HNC';
 	font-size: 2em;
 	max-width: 960px;
-	padding-bottom: 15px;
+	line-height: 1.4;
+	padding-bottom: 5px;
 	margin: 0 auto;
+}
+
+.body-artists p {
+	padding-bottom: 10px;
 }
 
 .grey {
 	color: dimgrey;
 	/*font-size: 1.8em;*/
 }
-
 
 /*
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
